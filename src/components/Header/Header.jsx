@@ -35,6 +35,38 @@ export default function Header() {
                 Multiplicativo
               </NavLink>
             </li>
+            <li>
+              <NavLink
+                to="/azucar"
+                className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}
+              >
+                Azúcar
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/tienda"
+                className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}
+              >
+                Tienda
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/dados"
+                className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}
+              >
+                Dados
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/huevos"
+                className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}
+              >
+                Huevos
+              </NavLink>
+            </li>
           </ul>
         </nav>
       </div>
