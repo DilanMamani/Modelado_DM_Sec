@@ -21,26 +21,10 @@ export default function Header() {
             </li>
             <li>
               <NavLink
-                to="/lineal"
-                className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}
-              >
-                Lineal
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/multiplicativo"
-                className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}
-              >
-                Multiplicativo
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
                 to="/azucar"
                 className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}
               >
-                Azúcar
+                Agencia de Azúcar
               </NavLink>
             </li>
             <li>
@@ -48,7 +32,7 @@ export default function Header() {
                 to="/tienda"
                 className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}
               >
-                Tienda
+                LLegada a Tienda
               </NavLink>
             </li>
             <li>
@@ -56,7 +40,7 @@ export default function Header() {
                 to="/dados"
                 className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}
               >
-                Dados
+                Lanzamiento Dados
               </NavLink>
             </li>
             <li>
@@ -64,9 +48,25 @@ export default function Header() {
                 to="/huevos"
                 className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}
               >
-                Huevos
+                Gallina Ponedora de Huevos
               </NavLink>
             </li>
+            <li>
+              <NavLink
+                to="/tasa-fija"
+                className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}
+              >
+                Tasa Fija
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/tasa-variable"
+                className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}
+              >
+                Tasa Variable
+              </NavLink>
+              </li>
           </ul>
         </nav>
       </div>
